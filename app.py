@@ -4,7 +4,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 app = Flask(__name__)
 
 # Load model and tokenizer
-model_name = "khalifa1/Sql_LLama2_V3"
+model_name = "Sql_LLama2_V3"
 model = AutoModelForCausalLM.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
