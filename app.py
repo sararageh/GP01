@@ -4,7 +4,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 app = Flask(__name__)
 
 # Load model and tokenizer
-model_name = "model-00003-of-00003.safetensors"
+model_name = "GsqlbotfastAPI.ipynb"
 model = AutoModelForCausalLM.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
